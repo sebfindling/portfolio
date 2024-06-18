@@ -1,0 +1,46 @@
+.year {
+    min-height: 100px;
+  }
+  .year-data {
+    margin-bottom: 40px !important;
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      margin-bottom: 0;
+      code {
+        background-color: #ffe4b3;
+        color: black;
+        padding: 2px;
+        border: 1px solid #ffda85;
+      }
+      strong {
+        font-weight: 600;
+      }
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .images {
+      margin-bottom: 60px;
+      .file {
+        border: 1px solid rgb(245, 162, 106);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-width: 50px;
+        min-height: 50px;
+        background: rgb(245, 162, 106);
+        cursor: pointer;
+        &:hover {
+          border: 1px solid rgb(212, 62, 3);
+        }
+      }
+    }
+    .last .images {
+      margin-bottom: 0 !important;
+    }
+  }

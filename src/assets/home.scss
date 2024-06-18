@@ -1,0 +1,414 @@
+ul.year-data {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.site-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+  margin: 0;
+}
+
+.resume {
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  a {
+    color: #d17d00;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    // text-align: center;
+    margin-left: 100px;
+  }
+
+  h5 {
+    font-size: 18px;
+    margin-left: 100px;
+  }
+  
+  h4 {
+    margin-left: 100px;
+    font-size: 1rem;
+  }
+}
+
+.info {
+  position: relative;
+  background-color: white;
+  box-shadow: -8px 0px 5px 10px #ccc;
+  min-width: 250px;
+
+  .fixed {
+    z-index: 999999;
+    position: fixed;
+    padding: 1rem;
+    width: 250px;
+    left: 0;
+    top: 0;
+  }
+
+  .icons {
+    text-align: center;
+
+    .popper {
+      margin-left: -5px !important;
+    }
+
+    i {
+      font-style: normal;
+      font-size: 2.5rem;
+      margin: 0 0.5rem 0.5rem;
+
+      &.blocky {
+        color: white;
+        background-color: #ccc;
+        border-radius: 5px;
+      }
+    }
+
+    a {
+      color: #ccc;
+    }
+
+    a:hover {
+      color: orange;
+    }
+
+    a:active {
+      color: rgb(212, 143, 16);
+    }
+  }
+
+  .name {
+    text-align: center;
+
+    img {
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+  }
+
+  /* My description */
+  h3 {
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 200;
+
+    .inline-block {
+      border-top: none !important;
+      border-bottom: none !important;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    h3 {
+      font-size: 1.1rem !important;
+      line-height: 1.2rem;
+      text-align: left;
+    }
+    
+  }
+
+  a {
+    // color: rgb(212, 143, 16);
+    color: #d17d00;
+
+    // text-decoration: un;
+    &:hover {
+      color: rgb(212, 62, 3);
+    }
+
+    &:active {
+      color: rgb(130, 37, 1);
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .info {
+    min-width: 350px;
+
+    .fixed {
+      width: 350px;
+    }
+  }
+}
+
+//variaciones para impresion
+@media print {
+  .info {
+    h3 {
+      font-size: 20px !important;
+      line-height: 30px !important;
+      padding-left: 20px !important;
+
+      li {
+        font-size: 19px !important;
+      }
+    }
+
+    .name {
+      h1 {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .print {
+    display: block !important;
+  }
+
+  .screen {
+    display: none !important;
+  }
+
+  .resume {
+    display: contents !important;
+  }
+}
+
+@media screen {
+  .print {
+    display: none !important;
+  }
+
+  .screen {
+    display: block !important;
+  }
+}
+
+.separator {
+  margin-top: 400px;
+}
+
+.desktop { display: block !important; }
+
+
+@media screen and (max-width: 800px) {
+    .desktop {
+        display: none !important;
+    }    
+}
+
+@media screen and (max-width: 800px),
+print {
+  .circle {
+    padding: 2px 4px;
+    margin-right: 5px;
+    padding-top: 3px;
+
+    &.push-left {
+      margin-right: 0;
+      margin-left: 5px;
+    }
+  }
+
+  .year-data .images .file {
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+
+  .year-data p {
+    margin-bottom: 20px;
+  }
+
+  .year-data br {
+    display: none;
+  }
+
+  //1800=PDF , 800=web
+  .site-container {
+    display: block;
+  }
+
+  .fixed {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .info {
+    width: 100%;
+    display: block;
+    height: 140px;
+    position: relative;
+
+    .name {
+      float: left;
+      width: 180px;
+      margin: 0px;
+      padding: 0px;
+
+      img {
+        width: 110px;
+        border-radius: 0px !important;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        left: 160px;
+        top: 00px;
+        font-weight: bold;
+        position: absolute;
+      }
+    }
+
+    h3 {
+      width: calc(100vw - 200px); //200=PDF, 160=web
+      float: left;
+      margin: 0px;
+      margin-top: -70px;
+      // margin-left: -0px;
+      // margin-left: -19px;
+      margin-left: 160px;
+      padding: 0px;
+      font-size: .8rem;
+      line-height: .99rem;
+
+      font-size: .8rem;
+      line-height: 1rem;
+      font-weight: 300;
+
+      li {
+        font-size: 15px;
+      }
+    }
+
+    .icons {
+      position: absolute;
+      width: 180px;
+      height: 50px;
+      left: 105px;
+      top: 90px;
+
+      i {
+        // font-style: normal;
+        font-size: 2.22rem;
+        ;
+        margin: 0.3rem 0.26rem 0.5rem;
+      }
+    }
+  }
+
+  .resume {
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  h1 {
+    font-size: 15px !important;
+  }
+}
+
+
+.contact-form {
+  text-align: center !important;
+
+  input,
+  textarea {
+    background: orange;
+    color: white !important;
+    display: block;
+    border: none;
+    // border:1px solid white;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 8px;
+    outline: none;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: white !important;
+    font-style: italic;
+  }
+
+  input[type="submit"] {
+    width: auto;
+  }
+
+  textarea {
+    height: 200px;
+  }
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+ul {
+  // list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.col-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.view-seb,
+.view-seb:hover {
+  display: none;
+  background: rgb(255, 94, 0);
+  -webkit-print-color-adjust: exact;
+  -moz-print-color-adjust: exact;
+  -ms-print-color-adjust: exact;
+  print-color-adjust: exact;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white !important;
+  margin: auto;
+  border: 1px solid;
+  margin-left: 20px;
+  transform: translateY(-5px);
+  font-size: 1.2rem;
+}
+
+@media print {
+
+  .view-seb,
+  .view-seb:hover {
+    display: inline-block;
+  }
+}
