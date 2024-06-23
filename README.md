@@ -1,6 +1,6 @@
 # seb.cl
 
-### Source code for [my website](https://seb.cl), written in Vue 3. 
+### Source code for [my website](https://portfolio.seb.cl), written in Vue 3. 
 ![Me](https://user-images.githubusercontent.com/197329/234124658-535eade7-84a6-43d4-a333-7ca90109d092.png)
 ---
 
