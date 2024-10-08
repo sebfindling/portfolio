@@ -1,8 +1,8 @@
 export default {
     items: [{
         title: 'SAMO',
-        description: 'Modular management software that allows issuing electronic bills and taxes, and its\
-        open infrastructure allows for an easy further growth.',
+        description: 'Modular management software for issuing electronic bills and taxes, with a\
+        highly scalable infrastructura for an easy future growth.',
         images: [
             { src: 'samo1.jpg' },
             { src: 'samo2.jpg' },
