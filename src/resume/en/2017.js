@@ -10,7 +10,7 @@ export default {
     },
     {
       title: 'Elder',
-      description: 'Software Framework that allowed me to easily create small software with my own prebuilt blocks.',
+      description: 'Modular framework that allowed me to easily create multiple small software with my own prebuilt blocks.',
       images: [
         { src: 'elder1.jpg' },
         { src: 'elder2.jpg' },
