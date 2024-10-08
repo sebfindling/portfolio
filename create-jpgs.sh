@@ -1,4 +1,4 @@
-dir="/mnt/c/Users/Yo/OneDrive/Desarrollo/Emprendimiento/Seb/captures-original"
+dir="/mnt/c/Users/Seb/OneDrive/Desarrollo/Emprendimiento/Seb/captures-original"
 total=$(find $dir -type f | wc -l)
 
 #captures

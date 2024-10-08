@@ -10,8 +10,8 @@ let resume = ref([]);
 let phone = ref(null);
 
 onMounted(async _ => {
-    resume.value = await getResume(locale);
-    phone.value = localStorage.getItem('phone');
+  resume.value = await getResume(locale);
+  phone.value = localStorage.getItem('phone');
 })
 </script>
 
@@ -43,7 +43,7 @@ onMounted(async _ => {
               </a>
             </Popper> -->
             <Popper content="My Github repo" hover arrow :interactive="false">
-              <a class="desktop" href="https://github.com/sebolio" target="_blank">
+              <a class="desktop" href="https://github.com/voltuer" target="_blank">
                 <i class="fa-brands fa-github-square"></i>
               </a>
             </Popper>
@@ -67,7 +67,7 @@ onMounted(async _ => {
     </div>
 
     <div class="resume">
-      <h2>Welcome! 😃<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
+      <h2>Welcome 😊<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
         <h5>I'm a senior developer with 28 years' experience (since 1996).</h5>
       <!-- <h4>Projects developed just by myself, unless noted otherwise.</h4> -->
       <Year
@@ -88,7 +88,7 @@ onMounted(async _ => {
           />
         </ul>
       </Year>
-      <h2 class="screen">Phew... that's a lot 😅</h2>
+      <h2 class="screen">Bye! 🙌</h2>
 
     </div>
   </div>

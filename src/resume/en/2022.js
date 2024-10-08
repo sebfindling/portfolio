@@ -1,7 +1,7 @@
 export default {
     items: [{
         title: 'Dreamoms',
-        description: 'Developed an designed an online courses platform, for which I took all tech decisions and built a base platform, then hired a second developer to help finishing the final product.',
+        description: 'Online courses platform with video streaming and live classes, featuring a powerful management system for owners, teachers and students.',
         images: [
             { src: 'dreamoms1.jpg', alt: 'Course viewer' },
             { src: 'dreamoms3.jpg', alt: 'Conversations' },

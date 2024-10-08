@@ -2,17 +2,27 @@ export default {
     last: true,
     items: [
         {
-            title: '1n.cl',
+            title: 'ENTi',
             description: 'Marketing platform that sends automated rating requests to your customers, showing\
                           real-time feedback and rating results. It also supplies a platform for your customers \
                           to rate your services and products.',
             images: [
-                { src: '1n-solicitud.jpg' },
-                { src: '1n-form.jpg' },
-                { src: '1n-valoracion.jpg' },
-                { src: '1n-opiniones.jpg' },
+                { src: 'enti-solicitud.jpg' },
+                { src: 'enti-form.jpg' },
+                { src: 'enti-valoracion.jpg' },
+                { src: 'enti-opiniones.jpg' },
             ]
-        },        {
+        },    
+        {
+          title: 'ENTi\'s Website',
+          description: 'Website for my marketing platform ENTi',
+          images: [
+              { src: 'enti-web1.jpg' },
+              { src: 'enti-web2.jpg' },
+              { src: 'enti-web3.jpg' },
+          ]
+        },      
+        {
             title: 'Domainer',
             description: 'Online software that periodically checks domains availability and buys or renews them automatically, built in my visual framework `Elder`.',
             images: [
