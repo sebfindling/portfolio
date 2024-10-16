@@ -16,7 +16,7 @@ export default {
     },
     {
         title: 'seb.cl',
-        description: 'Built my personal website on Vue 3, then released its source code as a template for anyone to use.',
+        description: 'My portfolio built in Vue 3, [released](https://github.com/voltuer/portfolio) as open source for anyone to use.',
         images: [
             { src: 'seb1.jpg' },
             { src: 'seb2.jpg' },

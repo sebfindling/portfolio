@@ -1,7 +1,8 @@
 <script setup>
-import { onMounted, ref } from 'vue';
+import { ref } from 'vue';
 import '@/assets/year-data.scss';
 import MarkdownLinksInNewTab from './MarkdownLinksInNewTab.vue';
+import Markdown from './Markdown.vue';
 
 const props = defineProps(['title', 'description', 'images', 'last'])
 const currentOpenImage = ref(null);
