@@ -5,7 +5,7 @@ export default {
         description: 'Using my framework Elder as a base, as the CTO, I was in charge of designing \
         and building the framework on which we built a social network and a marketplace, as well as \
         building the development team. We were funded by 500 Startups in Mexico. \
-        \n&nbsp;\n\n**Watch the videogame presentation on [this video](https://www.youtube.com/watch?v=K3mJ1FdgNNo)**.',
+        \n&nbsp;\n\n**Watch the gamified presentation on [this video](https://youtu.be/G5HPHVo8vrE)**.',
         images: [
             { src: 'addshop4.jpg' },
             { src: 'addshop2.jpg' },
