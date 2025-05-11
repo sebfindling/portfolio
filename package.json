@@ -8,16 +8,19 @@
     "publish": "rsync -r docs/* hosting:public_html"
   },
   "dependencies": {
-    "darkreader": "^4.9.95",
+    "darkreader": "^4.9.105",
     "markdown-it": "^14.1.0",
-    "vue": "^3.2.29",
-    "vue-easy-lightbox": "^1.3.0",
-    "vue-router": "^4.0.12",
-    "vue3-popper": "^1.4.1"
+    "vue": "^3.5.13",
+    "vue-easy-lightbox": "^1.19.0",
+    "vue-router": "^4.5.1",
+    "vue3-popper": "^1.5.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.1.0",
-    "sass": "^1.49.7",
-    "vite": "^2.7.13"
+    "@vitejs/plugin-vue": "^2.3.4",
+    "sass": "^1.87.0",
+    "vite": "^2.9.18"
+  },
+  "pnpm": {
+    "neverBuiltDependencies": []
   }
 }

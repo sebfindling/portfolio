@@ -27,7 +27,7 @@ onMounted(async _ => {
             Senior Software Developer
           </h3>
           <div class="icons screen">
-            <Popper content="Linkedin" hover arrow :interactive="false">
+            <Popper content="LinkedIn" hover arrow :interactive="false">
               <a href="//linkedin.com/in/findling" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
@@ -42,8 +42,8 @@ onMounted(async _ => {
                 <i class="fa-brands fa-blogger"></i>
               </a>
             </Popper> -->
-            <Popper content="My Github repo" hover arrow :interactive="false">
-              <a class="desktop" href="https://github.com/voltuer" target="_blank">
+            <Popper content="My GitHub repo" hover arrow :interactive="false">
+              <a class="desktop" href="https://github.com/sebfindling" target="_blank">
                 <i class="fa-brands fa-github-square"></i>
               </a>
             </Popper>
@@ -67,9 +67,8 @@ onMounted(async _ => {
     </div>
 
     <div class="resume">
-      <h2>Welcome 😊<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
-        <h5>I'm a senior developer with 28 years' experience (since 1996).</h5>
-      <!-- <h4>Projects developed just by myself, unless noted otherwise.</h4> -->
+      <h2>Hi 👋<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
+        <h5>I'm a software developer with 29 years' experience (since 1996).</h5>
       <Year
         v-for="(year, i) in resume"
         :year="year.year"
