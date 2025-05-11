@@ -1,6 +1,8 @@
 {
   "name": "tl",
   "version": "0.0.0",
+  "repository": "https://github.com/sebfindling/portfolio",
+  "deployment_url": "https://github.com/sebfindling/portfolio/actions",
   "scripts": {
     "dev": "vite --port 3200",
     "build": "vite build --outDir docs",
