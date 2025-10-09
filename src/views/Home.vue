@@ -12,6 +12,7 @@ let phone = ref(null);
 onMounted(async _ => {
   resume.value = await getResume(locale);
   phone.value = localStorage.getItem('phone');
+  // console.log(`total items:`, resume.value.map(y => y.items.length).reduce((a, b) => a + b, 0));
 })
 </script>
 
