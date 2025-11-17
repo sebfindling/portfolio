@@ -22,7 +22,6 @@ onMounted(async _ => {
     <div class="info">
       <div class="fixed">
         <section class="name">
-          <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
           <h3 class="role screen">
             Senior Software Developer
@@ -33,11 +32,11 @@ onMounted(async _ => {
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </Popper>
-            <Popper content="WhatsApp" hover arrow :interactive="false">
+            <!-- <Popper content="WhatsApp" hover arrow :interactive="false">
               <a href="//wa.me/56999997371" target="_blank">
                 <i class="fa-brands fa-whatsapp-square"></i>
               </a>
-            </Popper>
+            </Popper> -->
             <!-- <Popper content="Personal blog" hover arrow :interactive="false">
               <a href="https://findling.cl" target="_blank">
                 <i class="fa-brands fa-blogger"></i>
