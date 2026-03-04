@@ -22,6 +22,7 @@ onMounted(async _ => {
     <div class="info">
       <div class="fixed">
         <section class="name">
+          <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
           <h3 class="role screen">
             Senior Software Developer
@@ -68,7 +69,7 @@ onMounted(async _ => {
 
     <div class="resume">
       <h2>Hi 👋<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
-        <h5>I'm a software developer with 30 years' experience (since 1996).</h5>
+        <h5>I'm a software developer with 30 years' experience.</h5>
       <Year
         v-for="(year, i) in resume"
         :year="year.year"
