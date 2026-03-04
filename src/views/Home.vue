@@ -29,7 +29,7 @@ onMounted(async _ => {
           </h3>
           <div class="icons screen">
             <Popper content="LinkedIn" hover arrow :interactive="false">
-              <a href="//linkedin.com/in/findling" target="_blank">
+              <a href="//linkedin.com/in/sebastian-findling" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </Popper>
